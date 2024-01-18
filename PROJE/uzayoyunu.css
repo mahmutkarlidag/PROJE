@@ -1,0 +1,29 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+#board {
+    background-color: black;
+}
+
+.center .buttons{
+    margin: 35px 280px;
+}
+
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background:rgba(0, 0, 0, 0.829);
+    border: solid 1px rgb(255, 255, 255);
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px;
+    transition: .5s;
+}
+
+.buttons button:hover{
+    background: #fff;
+}
